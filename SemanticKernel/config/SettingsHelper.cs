@@ -2,6 +2,7 @@
 using System;
 using System.IO;
 using System.Text.Json;
+using Microsoft.SemanticKernel;
 
 public class MySettings {
     public string Type { get; set; } = "azure";
